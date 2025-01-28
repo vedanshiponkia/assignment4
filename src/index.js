@@ -1,11 +1,18 @@
-// index.js
-import React from "react";
-import ReactDOM from "react-dom";
+
+import React from 'react'; 
+import ReactDOM from 'react-dom/client';
+import { CounterProvider } from './context/CounterContext.js';
+import './index.css';
 import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render( 
+  <React.StrictMode> 
+    <CounterProvider> 
+      <App /> 
+    </CounterProvider> 
+  </React.StrictMode> 
 );
+
+
+
