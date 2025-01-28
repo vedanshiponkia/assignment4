@@ -1,6 +1,6 @@
 // CounterDisplay.js
 import React, { useContext } from "react";
-import { CounterContext } from "./CounterContext";
+import { CounterContext } from "../context/CounterContext";
 
 const CounterDisplay = () => {
   // 1. Access the counter value from the context.

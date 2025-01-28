@@ -1,8 +1,8 @@
 // App.js
 import React from "react";
-import { CounterProvider } from "./CounterContext";
-import CounterDisplay from "./CounterDisplay";
-import CounterControls from "./CounterControls";
+import { CounterProvider } from "./context/CounterContext";
+import CounterDisplay from "./components/CounterDisplay";
+import CounterControls from "./components/CounterControls";
 
 const App = () => {
   return (

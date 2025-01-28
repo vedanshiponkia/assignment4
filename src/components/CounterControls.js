@@ -1,6 +1,6 @@
 // CounterControls.js
 import React, { useContext } from "react";
-import { CounterContext } from "./CounterContext";
+import { CounterContext } from "../context/CounterContext";
 
 const CounterControls = () => {
   // 1. Access increment and decrement functions from the context.
